@@ -1,0 +1,310 @@
+@charset "utf-8";
+
+/* 폰트 */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;}
+
+    @font-face {
+        font-family: 'NanumSquareNeo-Variable';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+body {
+    background-color: #fff;
+}
+
+a { 
+    text-decoration: none; 
+    color: inherit; }
+
+
+    /* 📌헤더 */
+        header {
+            height: 70px;
+            width: 100%;
+            font-family: 'Pretendard-Regular';
+            background-color: rgba(32, 32, 32, 0.548);
+            position: fixed ;
+            top: 0;
+            left: 0;
+            z-index: 9;
+            text-align: left;
+            line-height: 70px;
+        }
+    
+        header nav ul li {
+            color: #fff;
+            display: inline-block;
+            margin: 0 30px;
+        }
+
+
+
+    /* 📌비디오 */
+    #section0 video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #section0 {
+        background-color: #333;
+        background: url('../img/');
+    }
+
+    
+    /* 📌영상편집/모션그래픽 */
+    #section1 {
+        background-color: rgba(223, 139, 29, 0.897);
+    }
+
+    #section1 .fp-arrow.fp-prev {
+      top:67%;
+      border-color: transparent #333 transparent transparent;
+      border-width: 38.5px 34px 38.5px 0;
+
+    }
+    #section1 .fp-arrow.fp-next {
+      top:67%;
+      border-color: transparent transparent transparent #333;
+      border-width: 38.5px 0 38.5px 34px;
+
+    }
+
+
+    #section1 #slide1 h1 {
+        color: #fff;
+    }
+
+    #section1 #slide1 .myContent > div {
+        padding: 100px;
+        display: flex;
+    }
+
+    #section1 #slide1 .myContent div .info {
+        width: 45%;
+        padding: 60px 60px;
+        margin-left: 20px;
+    }
+
+    #section1 #slide1 .myContent div .info h4 {
+      font-size: 27px;
+      margin: 20px auto;
+      font-family: 'Pretendard-Regular';
+    }
+
+    #section1 #slide1 .myContent div .info dl dt {
+      font-size: 20px;
+      font-weight: bold;
+      font-family: 'NanumSquareNeo-Variable';
+      margin: 10px auto;
+    }
+
+    #section1 #slide1 .myContent div .info dd {
+      font-family: 'NanumSquareNeo-Variable';
+      line-height: 1.5;
+    }
+
+    #section1 #slide1 .myContent div .info .btn {
+      width: 800px;
+      display: flex;
+      margin: 50px 0;
+
+    }
+
+    #section1 #slide1 .myContent div .info .btn li {
+      font-family: 'NanumSquareNeo-Variable';
+      font-size: 13px;
+      line-height: 30px;
+      border-radius: 30px;
+      background-color: rgb(248, 210, 164);
+      padding: 6px;
+      font-weight: bolder;
+    }
+
+
+
+    #section1 #slide1 .myContent div .info .btn li:hover {
+      background-color: #333;
+      color: #fff;
+      cursor: pointer; }
+
+    #section1 #slide1 .myContent .youtube_wrap {
+        width: 50%;
+    }
+
+     #section1 #slide1 .myContent .youtube_wrap .youtube {
+        width: 100%;
+        padding-bottom: 56.25%;
+        position: relative;
+      }
+    
+      #section1 #slide1 .myContent  .youtube_wrap .youtube iframe {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+
+
+
+
+
+
+
+    /* 📌웹디자인, 웹퍼블리싱 */
+
+    #section2 {
+        background-color: rgb(53, 69, 138);
+      }
+
+    #section2 h1 {
+        margin-top: 20px;
+        color: #fff;
+      }
+      
+     #section2 .title {
+        text-align: center;
+      }
+      
+     #section2 .list {
+        padding: 40px 150px 20px;
+        display: flex;
+        justify-content: center;
+        font-family: 'NanumSquareNeo-Variable';
+      }
+      
+      #section2 .list .item {
+        width: calc(100% / 3 - 15px);
+        margin: 0 20px;
+      }
+      
+      #section2 .list .item figure {
+        width: 100%;
+        height: 370px;
+      }
+      
+      #section2 .list .item figure img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      #section2 .list .item .info {
+        background-color: #fff;
+        padding: 40px;
+      }
+      
+      #section2 .list .item .info h4 {
+        font-size: 25px;
+      }
+      
+      #section2 .list .item .info p {
+        font-size: 15px;
+        line-height: 1.3;
+        margin: 8px 0 20px;
+        line-height: 1.5;
+
+      }
+      
+      #section2 .list .item .info dl {
+        display: flex;
+        margin-bottom: 0px;
+        line-height: 1.5;
+      }
+      
+      #section2 .list .item .info dl dt {
+        margin-right: 20px;
+        font-weight: bolder;
+      }
+      
+      #section2 .list .item .info .btn {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        border-radius: 15px;
+        
+      }
+
+      #section2 .list .item .info .btn li {
+        border-radius: 20px;
+        background-color: rgb(72, 72, 211);
+        color: #fff;
+        padding: 10px;
+      }
+
+      #section2 .list .item .info .btn li:hover {
+        background-color: rgb(255, 157, 78);
+        cursor: pointer; }
+
+
+
+
+
+    #section3 {
+        background: url(img/cake03.jpg) center / cover no-repeat;
+    }
+
+    #section3 h1 {
+        height: 750px;
+    }
+
+
+
+    #fp-nav ul li .fp-tooltip {
+        color: rgb(221, 221, 221);
+    }
+
+    #fp-nav ul li a span,
+    .fp-slidesNav ul li a span {
+        background-color: rgba(90, 90, 90, 0.295);
+    }
+
+    .fp-viewing-secondPage header {
+        background-color: #fff;
+        color: #333
+    }
+
+    #footer_wrap h1 {
+        height: 800px;
+    }
+
+    .fp-arrow.fp-prev {
+        background: url(img/left.png) center center / 50px 50px no-repeat;
+        width: 50px;
+        height: 50px;
+        border-width: 0;
+        border-color: transparent;
+    }
+
+
+    .fp-arrow.fp-next {
+        background: url(img/right.png) center center / 50px 50px no-repeat;
+        width: 50px;
+        height: 50px;
+        border-width: 0;
+        border-color: transparent;
+    }
+
+    .fp-watermark {display:none}
+
