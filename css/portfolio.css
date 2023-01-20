@@ -177,6 +177,7 @@ a {
 
     #section2 {
         background-color: rgb(53, 69, 138);
+        
       }
 
     #section2 h1 {
@@ -242,13 +243,13 @@ a {
       #section2 .list .item .info .btn {
         margin-top: 40px;
         display: flex;
-        border-radius: 15px;
+        border-radius: 10px;
         
       }
 
       #section2 .list .item .info .btn li {
         border-radius: 25px;
-        background-color: rgb(72, 72, 211);
+        background-color: rgb(53, 69, 138);
         color: #fff;
         padding: 15px;
         margin-right: 20px;
@@ -271,6 +272,7 @@ a {
     }
 
     #section3 .list {
+      font-family: 'NanumSquareNeo-Variable';
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -295,6 +297,89 @@ a {
 
 
 
+    /* 📌프로필 */
+    #footer_wrap h1 {
+      margin: 0 45px;
+    }
+
+    .profile {
+      font-family: 'NanumSquareNeo-Variable';
+
+/*        padding: 180px 0;
+ *//*       background-color: tan;
+ */    }
+
+    .profile .inner .title h3 {
+      margin: 40px 50px 10px;
+    }
+
+    .profile .inner .title p {
+      margin: 10px 50px;
+    }
+
+
+    .profile .list {
+      font-family: 'NanumSquareNeo-Variable';
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+    }
+    
+    .profile .list figure {
+      width: 400px;
+      height: 400px;
+    }
+    
+    .profile .list figure img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .profile .list .info {
+      width: 1400px;
+      padding-left: 60px;
+    }
+    
+    .profile .list .info ul {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    
+    .profile .list .info ul li strong {
+      width: 180px;
+      display: inline-block;
+    }
+    
+    .profile .list .info .skill {
+      margin-top: 50px;
+    }
+    
+    .profile .list .info .skill li {
+      height: 50px;
+      line-height: 50px;
+      border-radius: 40px;
+      color: #fff;
+      background-color: #333;
+      font-size: 16px;
+      margin: 5px;
+      padding: 0 30px;
+    }
+    
+    
+    .profile .list .info .skill li.w{
+      background-color: #999;
+    }
+
+
+
+
+
+
+
 
 
     #fp-nav ul li .fp-tooltip {
@@ -312,7 +397,6 @@ a {
     }
 
     #footer_wrap h1 {
-        height: 800px;
     }
 
     .fp-arrow.fp-prev {
